@@ -54,7 +54,7 @@ public class UserServiceTest {
 		when(userRepository.save(Mockito.any(User.class))).thenReturn(user);
 		User created = userService.saveUser(user);
 		
-		assertThat(is("SUN"), is("SUN"));	
+		assertThat("SUN", is("SUN"));	
 	}
 	
 	@Test
