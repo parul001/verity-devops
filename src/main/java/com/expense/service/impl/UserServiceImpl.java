@@ -65,7 +65,7 @@ public class UserServiceImpl implements UserService {
 	@Override
 	public User saveUser(User user) {
 		// Uncomment below 2 lines to make test fail (UserServiceTest.saveUserTest())
-		 user.setUsername("Uth");
+		 user.setUsername("SUN");
 		return user;
 
 		// Comment below 2 lines to make test fail
